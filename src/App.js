@@ -4,8 +4,8 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
-import Navbar from './components/Nav/Navbar';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 import './App.css';
 

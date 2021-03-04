@@ -10,8 +10,7 @@ function SocialMediaLinks() {
         target="_blank"
       >
         <FaInstagram size={26} style={{ color: "red" }} />
-      </a>{" "}
-      &nbsp;
+      </a>
       <a
         href="https://www.facebook.com/"
         rel="noreferrer"
