@@ -4,7 +4,8 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
-import Navbar from './components/Navbar';
+import Navbar from './components/Nav/Navbar';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
         <Route exact path='/gallery' component={Gallery} />
         <Route exact path='/contact' component={Contact} />
       </Switch>
+      <Footer />
     </React.Fragment>
   );
 }
