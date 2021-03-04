@@ -4,12 +4,14 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import Navbar from './components/Navbar';
 
 import './App.css';
 
 function App() {
   return (
     <React.Fragment>
+      <Navbar />
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/menu' component={Menu} />
