@@ -3,14 +3,34 @@ import React from 'react'
 function BusinessHour() {
   return (
     <div>
-      <p >Open Hours</p>
+      <h4>Open Hours</h4>
         <p>
-          <span>Sun–Thu</span>
-          <span>12PM - 4PM & 5PM - 10.45PM</span>
+          <span>Monday</span>
+          <span>9:00 - 24:00</span>
         </p>
         <p>
-          <span>Fri–Sat</span>
-          <span>12PM - 4PM & 5PM - 10.45PM</span>
+          <span>Tuesday</span>
+          <span>9:00 - 24:00</span>
+        </p>
+        <p>
+          <span>Wednesday</span>
+          <span>9:00 - 24:00</span>
+        </p>
+        <p>
+          <span>Thursday</span>
+          <span>9:00 - 24:00</span>
+        </p>
+        <p>
+          <span>Friday</span>
+          <span>9:00 - 02:00</span>
+        </p>
+        <p>
+          <span>Saturday</span>
+          <span>9:00 - 02:00</span>
+        </p>
+        <p>
+          <span>Sunday</span>
+          <span>Closed</span>
         </p>
     </div>
   )
